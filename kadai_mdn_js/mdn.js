@@ -1,3 +1,8 @@
-let d = new Date(2023,07,22);
+var date = new Date(2023,08,22);
 
-console.log(d.toLocaleDateString());
+var year = date.getFullYear();
+var month = date.getMonth();
+var day = date.getDate();
+
+console.log(year + '年' + month + '月' + day + '日');
+
